@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class SchoolManagementSystem {
     //assigned private to grades
     private List<String> grades = new ArrayList<>();
-
+    //try and throw, catch and finally arguments
     public void assignGrade(String studentName, int grade) {
         try {
             if (grade < 0 || grade > 100) {
