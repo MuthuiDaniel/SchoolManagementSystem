@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SchoolManagementSystem {
+    //assigned private to grades
     private List<String> grades = new ArrayList<>();
 
     public void assignGrade(String studentName, int grade) {
