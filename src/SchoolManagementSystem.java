@@ -19,7 +19,7 @@ public class SchoolManagementSystem {
             System.out.println("Grade assignment attempted.");
         }
     }
-
+  //new instance
     public static void main(String[] args) {
         SchoolManagementSystem system = new SchoolManagementSystem();
         system.assignGrade("Michael", 85);
